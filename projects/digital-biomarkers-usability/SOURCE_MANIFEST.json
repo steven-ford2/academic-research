@@ -1,0 +1,19 @@
+{
+  "source_id": "ford-2025-dissertation",
+  "title": "Digital Biomarkers of Usability",
+  "author": "Steven T. Ford",
+  "year": 2025,
+  "type": "University of Central Florida PhD dissertation",
+  "public_url": "https://stars.library.ucf.edu/etd2024/445/",
+  "public_pdf": "https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=1581&context=etd2024",
+  "data_availability": "not_in_repository",
+  "pdf_storage": "External public institutional repository; excluded from this temporary public project",
+  "verified_integrity": "not_performed",
+  "required_private_inputs": [
+    "original participant-level data",
+    "stimuli and experimental scripts",
+    "R/Jamovi statistical files",
+    "video-recovery code and logs",
+    "measures and scoring/codebooks"
+  ]
+}
