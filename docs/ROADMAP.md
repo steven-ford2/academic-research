@@ -4,7 +4,8 @@
 - [x] Public repository initialized (temporary user-authorized status)
 - [x] Agent directives, architecture, quality gates, risk registry, templates
 - [x] Structural tests and evidence/journal validators
-- [ ] Confirm remote CI execution and branch protection
+- [x] Verify remote GitHub Actions workflow execution (2026-10-14, run 38558199328)
+- [ ] Configure branch protections and independent PR review
 - [ ] Change visibility to private before adding nonpublic materials
 - [ ] Review research data governance and all source inputs
 

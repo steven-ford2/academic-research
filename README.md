@@ -24,8 +24,11 @@ This is a provenance-first research workspace for empirical manuscripts, evidenc
 - [Implementation roadmap](docs/ROADMAP.md)
 - [Implementation status](docs/IMPLEMENTATION_STATUS.md)
 - [Dissertation project](projects/digital-biomarkers-usability/README.md)
+- [Codex execution brief](docs/CODEX_EXECUTION.md)
+- [Implementation issues](https://github.com/steven-ford2/academic-research/issues)
+- [Verified foundation CI run](https://github.com/steven-ford2/academic-research/actions/runs/38558199328)
 
-## Planned command line
+## Working command line
 
 ```bash
 python -m venv .venv
