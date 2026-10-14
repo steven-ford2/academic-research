@@ -1,0 +1,32 @@
+---
+title: "[INVESTIGATOR-APPROVED TITLE]"
+author: "[AUTHOR APPROVAL REQUIRED]"
+format:
+  docx: default
+  html: default
+bibliography: references.bib
+---
+
+# Abstract
+
+[AUTHOR-DEVELOPED TEXT; confirm journal AI policy]
+
+# Introduction
+
+[VERIFIED THEORY AND GAPS REQUIRED]
+
+# Method
+
+[APPROVED DATA AND PROTOCOL REQUIRED]
+
+# Results
+
+[ONLY REPRODUCED AND VERIFIED STATISTICS]
+
+# Discussion
+
+[INVESTIGATOR-APPROVED INFERENCE AND LIMITATIONS]
+
+# Data, Code and Ethics Statements
+
+[REVIEW/APPROVAL REQUIRED]
