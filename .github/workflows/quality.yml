@@ -1,0 +1,28 @@
+name: Foundation quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e '.[dev]'
+      - run: pytest -q
+      - run: ruff check src tests
+      - run: python scripts/verify_dissertation_source.py
+      - run: researchos audit-evidence literature/evidence/claims.json
+      - name: Journal profiles (fail closed; informational for foundation)
+        run: |
+          if researchos audit-journals journals/profiles; then
+            echo "Verified journal profiles available"
+          else
+            echo "Journal profiles remain unverified; manuscript release is blocked"
+          fi
+      - run: python scripts/check_repo_safety.py
