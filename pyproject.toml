@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "researchos"
 version = "0.1.0"
-description = "Provenance-first reproducible research workflow scaffolding"
+description = "Evidence-integrity and reproducible research workflow"
 requires-python = ">=3.10"
 dependencies = ["PyYAML>=6,<7"]
 
@@ -20,6 +20,3 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-
-[tool.ruff]
-line-length = 100
