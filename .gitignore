@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local and restricted research
+/data/raw/
+/data/derived/
+**/data/raw/
+**/data/derived/
+**/private/
+**/restricted/
+*.edf
+*.asc
+*.mp4
+*.mov
+*.avi
+*.sqlite
+*.duckdb
+*.parquet
+# Outputs / editors
+.DS_Store
+.ipynb_checkpoints/
+*.Rproj.user/
