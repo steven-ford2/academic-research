@@ -1,0 +1,28 @@
+[
+  {
+    "id": "DBU-E2-MOUSE-RECOVERY",
+    "claim": "In Experiment 2 mouse coordinates were reconstructed from recorded video following logging failure; click counts were inferred from navigation activity.",
+    "verification_status": "located",
+    "sources": [
+      {
+        "document_id": "ford-2025-dissertation",
+        "locator": "Chapter Four, Measures, printed pp. 68–70",
+        "verification_method": "primary_fulltext"
+      }
+    ],
+    "notes": "Original scripts and data required to independently verify accuracy."
+  },
+  {
+    "id": "DBU-E3-FIXATION-TIME",
+    "claim": "The dissertation reports a correlation near r=0.94 between fixation count and time on task in Experiment 3.",
+    "verification_status": "located",
+    "sources": [
+      {
+        "document_id": "ford-2025-dissertation",
+        "locator": "Appendix B, printed p. 145",
+        "verification_method": "primary_fulltext"
+      }
+    ],
+    "notes": "Independently re-calculate and evaluate incremental validity."
+  }
+]
