@@ -1,9 +1,10 @@
 """Minimal ResearchOS command-line interface."""
 import argparse
 import json
-from pathlib import Path
 import re
 import sys
+from pathlib import Path
+
 from .evidence import audit_claims, release_blockers
 from .journals import audit_profile
 

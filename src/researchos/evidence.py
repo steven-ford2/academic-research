@@ -2,7 +2,6 @@
 import json
 from pathlib import Path
 
-
 STATES = {"unverified", "located", "checked", "disputed", "retracted"}
 
 

@@ -1,6 +1,7 @@
 """Journal metadata recency and human verification, not source truth."""
 from datetime import date
 from pathlib import Path
+
 import yaml
 
 

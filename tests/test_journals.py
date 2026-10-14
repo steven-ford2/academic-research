@@ -1,5 +1,7 @@
 from datetime import date
+
 from researchos.journals import audit_profile
+
 
 def test_unverified_profile_fails(tmp_path):
     p = tmp_path / "journal.yaml"
