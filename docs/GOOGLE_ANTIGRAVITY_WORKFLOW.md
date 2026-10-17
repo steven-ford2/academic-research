@@ -13,13 +13,13 @@ Google ended Google-sign-in access for **consumer** Gemini CLI and Gemini Code A
 2. Open VS Code Extensions (`Ctrl+Shift+X`), install **Google Antigravity** (publisher Google), and sign in with your existing Google AI Pro account. Install Codex separately and sign in with ChatGPT.
 3. Clone into a local folder **outside OneDrive-synced directories** if feasible:
    ```powershell
-   New-Item -ItemType Directory -Force C:\\dev
-   cd C:\\dev
+   New-Item -ItemType Directory -Force C:\dev
+   cd C:\dev
    git clone https://github.com/steven-ford2/academic-research.git
    cd academic-research
    code .
    py -3.11 -m venv .venv
-   .\\.venv\\Scripts\\Activate.ps1
+   .\.venv\Scripts\Activate.ps1
    python -m pip install -e '.[dev]'
    pytest -q
    ```
